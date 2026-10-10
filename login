@@ -19,7 +19,7 @@ $error = $_GET['error'] ?? '';
 </head>
 <body class="center">
     <form action="login_process.php" method="POST" class="card">
-        <h1>🔐 Iniciar Sesión</h1>
+        <h1>Iniciar Sesión</h1>
         
         <?php if ($error): ?>
             <p class="error"><?= htmlspecialchars($error) ?></p>
